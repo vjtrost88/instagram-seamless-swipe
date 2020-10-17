@@ -17,6 +17,7 @@ optional arguments:
   -k K, --k K           number of slices to do
 ```
 3. It will create a folder in the `path` of the image file you gave it called `slices` which will contain your individually sliced images, ready for your followers' content consumption.  
+
 **IMPORTANT NOTE:** it is imperative you know how you want to divide your pics up and at what aspect ratio. All this script does is slice up pictures. There are basically only 2 scenarios where this is useful:  
 If you want seamless swipe on a landscape photo to POST, that would mean `k` 4x5 images (w x h) to take up as much screen on instagram as possible, so your original landscape photo needs to be 4`k`x5 (no pun intended). This is the most common use case.  
 If you want to tap through a panorama on a STORY, that would mean `k` 9x16 images to take up as much screen as possible, so your original landscape photo needs to be 9`k`x16.  
